@@ -12,7 +12,7 @@ These installation instructions are based on Redmine 2.x. For instructions for R
       
   Copy the plugin from GitHub using the following commands:
   
-  git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
+      git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
         
 2. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
 
