@@ -1,4 +1,3 @@
-
 ## Installation
 
 *These installation instructions are based on Redmine 2.x. For instructions for Redmine 1.x, see [Redmine wiki](http://www.redmine.org/projects/redmine/wiki/Plugins).*
@@ -21,3 +20,5 @@
         rake redmine:plugins:migrate RAILS_ENV=production
 
 3. Restart Redmine.
+
+Now you should be able to see the plugin in **Administration > Plugins**.
