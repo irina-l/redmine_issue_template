@@ -1,27 +1,17 @@
 ## Installation
 
-1. To install the plugin, download the ZIP archive and copy the unzipped plugin directory into: 
-    * for Redmine 2.x: #{RAILS_ROOT}/plugins
-    * for Redmine 1.x: #{RAILS_ROOT}/vendor/plugins
+These installation instructions are based on Redmine 2.x. For instructions for Redmine 1.x, see [Redmine wiki](http://www.redmine.org/projects/redmine/wiki/Plugins).
 
- Or change you current directory to the plugins directory:  
+1. To install the plugin
+    * download the .ZIP archive, extract the files and copy the plugin directory into #{REDMINE_ROOT}/plugins.  
+    Or
+    * change you current directory to your Redmine root directory and copy the plugin from GitHub using the following commands:  
 
-        cd {REDMINE_ROOT}
-
- and copy the plugin from GitHub using the following command:  
-    
-        git clone https://github.com/Undev/redmine_issue_template.git
+            cd {REDMINE_ROOT}
+            git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
         
-2. This plugin requires migration. Run the following command to upgrade your database (make a database backup before).  
+2. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
 
-    * for Redmine 2.x:  
-    
-            rake redmine:plugins:migrate RAILS_ENV=production
-
-    * for Redmine 1.x:  
-    
-            rake db:migrate_plugins RAILS_ENV=production
+        rake redmine:plugins:migrate RAILS_ENV=production
 
 3. Restart Redmine.
-
-You should now be able to see the plugin in **Administration -> Plugins**.
