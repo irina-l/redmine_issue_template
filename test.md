@@ -31,10 +31,12 @@ These installation instructions are based on Redmine 2.x. For instructions for R
     
     Or
 
-    * Change you current directory to your Redmine root directory and copy the plugin from GitHub using the following commands:  
+    * Change you current directory to your Redmine root directory:  
 
             cd {REDMINE_ROOT}
             
+      and copy the plugin from GitHub using the following commands:
+      
             git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
         
 2. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
