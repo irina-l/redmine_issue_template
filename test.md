@@ -10,9 +10,9 @@
 
     * Change you current directory to your Redmine root directory:  
 
-              cd {REDMINE_ROOT}
+            cd {REDMINE_ROOT}
  
-      Copy the plugin from GitHub using the following commands:
+   Copy the plugin from GitHub using the following commands:
 
             git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
 
