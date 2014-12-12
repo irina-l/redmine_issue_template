@@ -4,7 +4,7 @@
 *These installation instructions are based on Redmine 2.x. For instructions for Redmine 1.x, see [Redmine wiki](http://www.redmine.org/projects/redmine/wiki/Plugins).*
 
 1. To install the plugin
-    * Download the .ZIP archive, extract  files and copy the plugin directory into #{REDMINE_ROOT}/plugins.
+    * Download the .ZIP archive, extract files and copy the plugin directory into #{REDMINE_ROOT}/plugins.
     
     Or
 
@@ -12,7 +12,7 @@
 
             cd {REDMINE_ROOT}
  
-     Copy the plugin from GitHub using the following commands:
+      Copy the plugin from GitHub using the following command:
 
             git clone https://github.com/Undev/redmine_issue_template.git plugins/redmine_issue_template
 
