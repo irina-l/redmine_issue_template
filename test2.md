@@ -12,7 +12,7 @@
       This will add a new **Issue templates** tab to the project settings.
     2. Switch to the **Issue templates** tab and create the required issue templates.  
     ![create issue template](issue_template_2.PNG)
-    3 . To edit or delete the issue template, go to the **Issue templates** tab of the project settings.
+    3 . To edit or delete the issue template, go to the **Issue templates** tab of the project settings.  
     ![edit issue template](issue_template_5.PNG)
 3. To use a template when creating a new issue
     1. Select the required issue template and click **Insert template**.  
