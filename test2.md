@@ -1,17 +1,14 @@
-# Redmine Attach_By_Url Plugin
+# Redmine Plugin to Open Links in New Tab
 
-[![Build Status](https://travis-ci.org/nodecarter/redmine_attach_by_url.png)](https://travis-ci.org/nodecarter/redmine_attach_by_url)
-[![Code Climate](https://codeclimate.com/github/nodecarter/redmine_attach_by_url.png)](https://codeclimate.com/github/nodecarter/redmine_attach_by_url)
-
-## Description
-
-This plugin adds **Attachments by url** block to the issue form and enables you to attach files to issues by URL. Files are downloaded from public resources and placed into *#{REDMINE_ROOT}/attachments/download/* by the server. You can add as many files as you need when you create or edit an issue. Once the file is uploaded, it can be opened, saved or deleted in a regular way. This plugin prevents possible loss of information if the file's public URL becomes unavailable.
+With this plugin, clicking a link in Redmine opens it in a new browser tab instead of your current tab. This plugin works in Wiki and descriptions and notes for projects, issues, files, etc.
 
 ## Compatibility
 
-This plugin version is compatible with Redmine 2.x only.
+This plugin is compatible with Redmine 0.9.6, 1.0.5, 2.1.0. @@@2.6.0@@
 
 ## Installation
+
+*These installation instructions are based on Redmine 2.1.0.@@@ For instructions for previous Redmine versions, see [Redmine wiki](http://www.redmine.org/projects/redmine/wiki/Plugins).*
 
 1. To install the plugin
     * Download the .ZIP archive, extract files and copy the plugin directory into *#{REDMINE_ROOT}/plugins*.
@@ -21,24 +18,16 @@ This plugin version is compatible with Redmine 2.x only.
     * Change you current directory to your Redmine root directory:  
 
             cd {REDMINE_ROOT}
-            
-      Copy the plugin from GitHub using the following commands:  
-      
-            git clone git://github.com/nodecarter/redmine_attach_by_url.git plugins/redmine_attach_by_url
-        
-2. Run the following command to install the delayed_job gem:  
+ 
+      Copy the plugin from GitHub using the following command:
 
-        bundle install
+            git clone https://github.com/Undev/redmine_open_links_in_new_window.git plugins/redmine_open_links_in_new_window
 
-3. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
-
-        rake redmine:plugins:migrate RAILS_ENV=production
-
-3. Restart Redmine.
-4. Start the delayed_job worker gem:  
-
-        bundle exec rake jobs:work RAILS_ENV=production
+2. Restart Redmine.
 
 Now you should be able to see the plugin in **Administration > Plugins**.
 
 ## Usage
+
+This plugin does not require any additional actions or configuration.
+
