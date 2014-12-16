@@ -1,4 +1,4 @@
-# Redmine Plugin to Open Links in New Tab
+# Redmine Plugin for Opening Links in New Tabs
 
 With this plugin, clicking a link in Redmine opens it in a new browser tab instead of your current tab. This plugin works in Wiki and descriptions and notes for projects, issues, files, etc.
 
