@@ -8,23 +8,19 @@
     * Change you current directory to your Redmine root directory:  
 
             cd {REDMINE_ROOT}
-            
-      Copy the plugin from GitHub using the following commands:  
-      
-            git clone git://github.com/nodecarter/redmine_attach_by_url.git plugins/redmine_attach_by_url
-        
-2. Run the following commands to update the Gemfile.lock file and install the delayed_job gem:  
+ 
+      Copy the plugin from GitHub using the following command:
 
-        rm Gemfile.lock
-        bundle install
+            git clone https://github.com/Undev/redmine_repository_default_check.git plugins/redmine_repository_default_check
 
-3. This plugin requires a migration. Run the following command to upgrade your database (make a database backup before):  
+2. Update the local package index and install the dependencies:
 
-        rake redmine:plugins:migrate RAILS_ENV=production
+         sudo apt-get update  
+         sudo apt-get install libxml2-dev libxslt-dev
 
-3. Restart Redmine.
-4. Start the delayed_job worker gem:  
+3. Update the Gemfile.lock file by running the following commands:  
 
-        bundle exec rake jobs:work RAILS_ENV=production
+         rm Gemfile.lock  
+         bundle install
 
-Now you should be able to see the plugin in **Administration > Plugins**.
+4. Restart Redmine.
