@@ -15,10 +15,10 @@
 
             git clone https://github.com/Undev/redmine_open_links_in_new_window.git plugins/redmine_open_links_in_new_window
 
-2. Update the Gemfile.lock file by running the following commands:
+2. Update the Gemfile.lock file by running the following commands:  
 
-   rm Gemfile.lock
+            rm Gemfile.lock
       
-   bundle install
+            bundle install
     
 3. Restart Redmine.
