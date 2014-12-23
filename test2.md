@@ -17,8 +17,8 @@
 
 2. Update the Gemfile.lock file by running the following commands:  
 
-      rm Gemfile.lock
+         rm Gemfile.lock
       
-      bundle install
+         bundle install
     
 3. Restart Redmine.
