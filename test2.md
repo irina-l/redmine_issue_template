@@ -40,7 +40,7 @@ The plugin enables you to add Skype URIs to initiate:
 
 * Implicit call  
   Type **"Implicit call":skype:skype.test.user.1** into a field where you want to add a Skype URI.  
-  This command will be transformed into the following link: </a href="skype:skype.test.user.1">Implicit call</a>.  
+  This command will be transformed into the following link: **<a href="skype:skype.test.user.1">Implicit call</a>**.  
   Clicking the link will start a Skype call without additional parameters.
 * Explicit call  
   Type **"Explicit call":skype:skype.test.user.1?call** into a field where you want to add a Skype URI.  
